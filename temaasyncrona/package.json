@@ -1,0 +1,19 @@
+{
+  "name": "temejava",
+  "version": "1.0.0",
+  "description": "",
+  "main": "temaasync.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandruAlin55/temaOOP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexandruAlin55/temaOOP/issues"
+  },
+  "homepage": "https://github.com/AlexandruAlin55/temaOOP#readme"
+}

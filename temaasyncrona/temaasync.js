@@ -1,8 +1,8 @@
-const buttons = document.querySelectorAll('.btn-box > button');
-const changeDest = document.querySelector('.second-row');
+const button = document.querySelectorAll('.btn-box > button');
+const changeDestinations = document.querySelector('.second-row');
 
 
-async function getDestinations() {
+async function getDestination() {
 
   const url = '/data/data.json'
 
@@ -20,9 +20,9 @@ async function getDestinations() {
     console.log(e)
   }
 };
-getDestinations()
+getDestination()
 
 
-buttons.forEach(button => {
-  button.addEventListener('click', getDestinations)
+button.forEach(button => {
+  button.addEventListener('click', getDestination)
 })
